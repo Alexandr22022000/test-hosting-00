@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i
+            .test(navigator.userAgent);
+
+        if (isMobile) {
+            document.write('<link href="./stylesMobile.css" rel="stylesheet">');
+        }
+        else {
+            document.write('<link href="./styles.css" rel="stylesheet">');
+        }
+    </script>
+</head>
+<body>
+<div class="window">{{DATA}}</div>
+</body>
+</html>

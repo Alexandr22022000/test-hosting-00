@@ -3,5 +3,10 @@
     "folder": "web-calculator",
     "title": "WebCalculator",
     "description": "Мой дренной калькулятор, который я уже сделал на куче платформ."
+  },
+  {
+    "folder": "test-map-01",
+    "title": "test-map-01",
+    "description": "Пример функционала для карт."
   }
 ]

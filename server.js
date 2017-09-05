@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/store'));
 app.get('/', (req, res) => {
     let links = '';
     for (let key in sites) {
-        links = `
+        links = links + `
             <a class="link" href="${sites[key].folder}">
                 <div class="link__container">
                     <h3 class="link__title">${sites[key].title}</h3>

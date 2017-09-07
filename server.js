@@ -31,6 +31,15 @@ app.get('/', (req, res) => {
     });
 });
 
+for (let key in sites) {
+    app.get('/' + sites[key].folder + "/*", (req, res) => {
+        fs.readFile(`store/${sites[key].folder}/index.html`, 'utf-8', (error, data) => {
+            if (error) return console.log(error);
+            res.send(data);
+        });
+    });
+}
+
 app.use(express.static(__dirname + '/dust'));
 
 app.listen(app.get('port'), function() {

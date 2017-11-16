@@ -18,5 +18,10 @@
     "folder": "test-vk-dispatch-00",
     "title": "test-vk-dispatch-00",
     "description": "Сверхпростой клиент для VK."
+  },
+  {
+    "folder": "test-task-for-it-00",
+    "title": "test-task-for-it-00",
+    "description": "Тестовое задание для _ЭТО"
   }
 ]

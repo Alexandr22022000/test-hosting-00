@@ -19833,7 +19833,7 @@ exports.push([module.i, ".user-page__name{margin:15px;font-size:30px}.user-page-
 /* 65 */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"user-page\"><p class=\"user-page__name\">{{name}}</p><img class=\"user-page-img__img\" :src=\"img\"/><p class=\"user-page-content__item\">{{bdate}}</p><p class=\"user-page-content__item\">{{age}}</p><p class=\"user-page-content__item\">{{city}}</p></div>"
+module.exports = "<div class=\"user-page\"><p class=\"user-page__name\">{{name}}</p><img class=\"user-page-img__img\" :src=\"img\"/><p class=\"user-page-content__item\">Дата рождения: {{bdate}}</p><p class=\"user-page-content__item\">Возраст: {{age}}</p><p class=\"user-page-content__item\">Город: {{city}}</p></div>"
 
 /***/ }),
 /* 66 */

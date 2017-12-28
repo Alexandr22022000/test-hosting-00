@@ -23,5 +23,10 @@
     "folder": "test-task-for-it-00",
     "title": "test-task-for-it-00",
     "description": "Тестовое задание для _ЭТО"
+  },
+  {
+    "folder": "VKApi",
+    "title": "VKApi",
+    "description": "Переделка тестового задания для _ЭТО"
   }
 ]

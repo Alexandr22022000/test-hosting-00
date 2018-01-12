@@ -28,5 +28,10 @@
     "folder": "vk-api",
     "title": "VKApi",
     "description": "Переделка тестового задания для _ЭТО"
+  },
+  {
+    "folder": "test-card-holder",
+    "title": "Визитница",
+    "description": "Проект _ЭТО инкубатора"
   }
 ]
